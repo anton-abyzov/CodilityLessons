@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrencesInArray", "Od
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNonoverlappingSegments", "MaxNonoverlappingSegments\MaxNonoverlappingSegments.csproj", "{2419DBDF-C6C5-4376-9073-9BE9E7783B7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieRopes", "TieRopes\TieRopes.csproj", "{4C95D630-203A-4BCD-A73B-681D1179712B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2419DBDF-C6C5-4376-9073-9BE9E7783B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2419DBDF-C6C5-4376-9073-9BE9E7783B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2419DBDF-C6C5-4376-9073-9BE9E7783B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C95D630-203A-4BCD-A73B-681D1179712B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C95D630-203A-4BCD-A73B-681D1179712B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C95D630-203A-4BCD-A73B-681D1179712B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C95D630-203A-4BCD-A73B-681D1179712B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
