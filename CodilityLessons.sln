@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNonoverlappingSegments",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieRopes", "TieRopes\TieRopes.csproj", "{4C95D630-203A-4BCD-A73B-681D1179712B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPassword", "LongestPassword\LongestPassword.csproj", "{6401D1E8-7562-4D24-B826-09F8FB1D2CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSolitaire", "NumberSolitaire\NumberSolitaire.csproj", "{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{4C95D630-203A-4BCD-A73B-681D1179712B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C95D630-203A-4BCD-A73B-681D1179712B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C95D630-203A-4BCD-A73B-681D1179712B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6401D1E8-7562-4D24-B826-09F8FB1D2CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6401D1E8-7562-4D24-B826-09F8FB1D2CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6401D1E8-7562-4D24-B826-09F8FB1D2CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6401D1E8-7562-4D24-B826-09F8FB1D2CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
