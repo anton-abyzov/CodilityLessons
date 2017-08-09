@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingInteger", "MissingIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermCheck", "PermCheck\PermCheck.csproj", "{C07429BF-AEAB-4BBA-B96A-4D18BD8D70C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogRiverOne", "FrogRiverOne\FrogRiverOne.csproj", "{0B3E9E8F-4124-48A4-8813-68EE98B59FC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{C07429BF-AEAB-4BBA-B96A-4D18BD8D70C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C07429BF-AEAB-4BBA-B96A-4D18BD8D70C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C07429BF-AEAB-4BBA-B96A-4D18BD8D70C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3E9E8F-4124-48A4-8813-68EE98B59FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3E9E8F-4124-48A4-8813-68EE98B59FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3E9E8F-4124-48A4-8813-68EE98B59FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3E9E8F-4124-48A4-8813-68EE98B59FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
