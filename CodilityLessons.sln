@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryGap", "BinaryGap\BinaryGap.csproj", "{376A4152-B96D-4198-9538-0E85361B6814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryGap", "BinaryGap\BinaryGap.csproj", "{376A4152-B96D-4198-9538-0E85361B6814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicRotation", "CyclicRotation\CyclicRotation.csproj", "{96864A65-BFA4-4335-92D2-4F315AA1276E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyclicRotation", "CyclicRotation\CyclicRotation.csproj", "{96864A65-BFA4-4335-92D2-4F315AA1276E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrencesInArray", "OddOccurrencesInArray\OddOccurrencesInArray.csproj", "{0F98C5D5-FFFF-4FC4-98E8-AA7FDAAE4E4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOccurrencesInArray", "OddOccurrencesInArray\OddOccurrencesInArray.csproj", "{0F98C5D5-FFFF-4FC4-98E8-AA7FDAAE4E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNonoverlappingSegments", "MaxNonoverlappingSegments\MaxNonoverlappingSegments.csproj", "{2419DBDF-C6C5-4376-9073-9BE9E7783B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxNonoverlappingSegments", "MaxNonoverlappingSegments\MaxNonoverlappingSegments.csproj", "{2419DBDF-C6C5-4376-9073-9BE9E7783B7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieRopes", "TieRopes\TieRopes.csproj", "{4C95D630-203A-4BCD-A73B-681D1179712B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TieRopes", "TieRopes\TieRopes.csproj", "{4C95D630-203A-4BCD-A73B-681D1179712B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPassword", "LongestPassword\LongestPassword.csproj", "{6401D1E8-7562-4D24-B826-09F8FB1D2CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPassword", "LongestPassword\LongestPassword.csproj", "{6401D1E8-7562-4D24-B826-09F8FB1D2CFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSolitaire", "NumberSolitaire\NumberSolitaire.csproj", "{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberSolitaire", "NumberSolitaire\NumberSolitaire.csproj", "{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermMissingElem", "PermMissingElem\PermMissingElem.csproj", "{3D1233DF-7EFB-4EEA-BC2E-B3B7FA3C3A71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A02FF0D6-CF11-48FD-95AB-726BBB38D4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1233DF-7EFB-4EEA-BC2E-B3B7FA3C3A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1233DF-7EFB-4EEA-BC2E-B3B7FA3C3A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1233DF-7EFB-4EEA-BC2E-B3B7FA3C3A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1233DF-7EFB-4EEA-BC2E-B3B7FA3C3A71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
