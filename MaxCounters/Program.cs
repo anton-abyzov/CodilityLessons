@@ -12,20 +12,31 @@ class Solution
     public int[] solution(int N, int[] A)
     {
         if (A.Length == 1)
-            return new int[]{ A[0]};
+            return new int[] { A[0] };
         var counters = new int[N];
         var maxCounter = 0;
+        var isLatestOperationMaxCounter = false;
         for (int k = 0; k < A.Length; k++)
         {
-            for (int x = 1; x <= counters.Count(); x++)
+            if (A[k] > N + 1) continue;
+
+            if (A[k] <= N)
             {
-                if (A[k] == x && x <= A.Length)
+                counters[A[k] - 1]++;
+                maxCounter = Math.Max(counters[A[k] - 1], maxCounter);
+                isLatestOperationMaxCounter = false;
+            }
+
+            if (A[k] == N + 1)
+            {
+                if (!isLatestOperationMaxCounter)
                 {
-                    counters[x - 1]++;
-                    maxCounter = Math.Max(counters[x - 1], maxCounter);
+                    for (int i = 0; i < counters.Length; i++)
+                    {
+                        counters[i] = maxCounter;
+                    }
+                    isLatestOperationMaxCounter = true;
                 }
-                if (A[k] == N + 1)
-                    counters[x-1] = maxCounter;
             }
         }
         return counters;
