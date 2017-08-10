@@ -11,25 +11,23 @@ class Solution
     {
         var counter = 0;
         var index = A;
-        while(index <=B)
-        {
-            if (index % K == 0)
-            {
-                counter++;
-                index += K;
-            }
-            else
-            {
-                index++;
-            }
-        }
+        //while(index <=B)
+        //{
+        //    if (index % K == 0)
+        //    {
+        //        counter++;
+        //        index += K;
+        //    }
+        //    else
+        //    {
+        //        index++;
+        //    }
+        //}
         //Console.WriteLine(counter);
-        //counter = 0;
-        //var diff = B - A;
-        //var start = (B % K == 0 ? 1 : 0);
-        //var end = (A % K == 0 ? 1 : 0);
-        //var inMiddle = diff / K;
-        //counter =  inMiddle + start + end;
+        counter = 0;
+        var diff = B - A;
+      
+        counter = B / K - A / K + (A % K == 0 ? 1 : 0);
         return counter;
     }
 
