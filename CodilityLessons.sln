@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fish", "Fish\Fish.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxDoubleSliceSum", "MaxDoubleSliceSum\MaxDoubleSliceSum.csproj", "{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{B9724ED4-B54E-4CE7-9649-838CA2B8A7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{B868A718-5473-4248-95ED-8CAB3AA38D53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9724ED4-B54E-4CE7-9649-838CA2B8A7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9724ED4-B54E-4CE7-9649-838CA2B8A7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9724ED4-B54E-4CE7-9649-838CA2B8A7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9724ED4-B54E-4CE7-9649-838CA2B8A7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B868A718-5473-4248-95ED-8CAB3AA38D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B868A718-5473-4248-95ED-8CAB3AA38D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B868A718-5473-4248-95ED-8CAB3AA38D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B868A718-5473-4248-95ED-8CAB3AA38D53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
