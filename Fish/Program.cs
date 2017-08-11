@@ -12,29 +12,35 @@ class Solution
 {
     public int solution(int[] A, int[] B)
     {
-        var stack = new Stack<int>();
-        var counterOfOne = 0;
-        for (int i = A.Length - 1; i >= 0; i--)
+        var upstream = new Stack<int>();
+        var downstream = new Stack<int>();
+        for (int i = 0; i < A.Length; i++)
         {
             if (B[i] == 0)
-                stack.Push(A[i]);
-            if (B[i] == 1)
             {
-                if (!stack.Any())
-                    counterOfOne++;
-                while (stack.Any() && stack.Peek() < A[i])
+                upstream.Push(A[i]);
+                if (downstream.Any())
                 {
-                    stack.Pop();
+                    while (downstream.Any() && A[i] > downstream.Peek())
+                    {
+                        downstream.Pop();
+                    }
+                    if (downstream.Any())
+                        upstream.Pop();
                 }
             }
+            if (B[i] == 1)
+            {
+                downstream.Push(A[i]);
+            }
         }
-        return stack.Count + counterOfOne;
+        return downstream.Count + upstream.Count;
     }
 
     public static void Main()
     {
         var arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-        var arr2= Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
+        var arr2 = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
         var result = new Solution().solution(arr, arr2);
         Console.WriteLine(result);
     }
