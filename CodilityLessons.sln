@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fish", "Fish\Fish.csproj", "{29B4CF0A-7530-4A2E-AF9C-AEB18E268A64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxDoubleSliceSum", "MaxDoubleSliceSum\MaxDoubleSliceSum.csproj", "{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{29B4CF0A-7530-4A2E-AF9C-AEB18E268A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B4CF0A-7530-4A2E-AF9C-AEB18E268A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B4CF0A-7530-4A2E-AF9C-AEB18E268A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E639E7B5-47B6-4DA9-B0E3-82B2B39928A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
