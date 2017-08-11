@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 // you can also use other imports, for example:
 // using System.Collections.Generic;
@@ -11,42 +12,23 @@ class Solution
 {
     public int solution(int[] A, int[] B)
     {
-        var index = 0;
-        var isEatingMode = false;
-        var eatingIndex = -1;
-        var counter = 0;
-        while (index < B.Length)
+        var stack = new Stack<int>();
+        var counterOfOne = 0;
+        for (int i = A.Length - 1; i >= 0; i--)
         {
-            if (B[index] == 1)
+            if (B[i] == 0)
+                stack.Push(A[i]);
+            if (B[i] == 1)
             {
-                if (isEatingMode)
+                if (!stack.Any())
+                    counterOfOne++;
+                while (stack.Any() && stack.Peek() < A[i])
                 {
-                    eatingIndex = index;
-                }
-                else
-                {
-                    isEatingMode = true;
-                    eatingIndex = index;
-                }
-                counter++;
-            }
-            if (B[index] == 0)
-            {
-                if (isEatingMode)
-                {
-                    if (A[index] > A[eatingIndex])
-                    {
-                        isEatingMode = false;
-                    }
-                }
-                else
-                {
-                    counter++;
+                    stack.Pop();
                 }
             }
-            index++;
         }
-        return counter;
+        return stack.Count + counterOfOne;
     }
 
     public static void Main()
