@@ -18,4 +18,9 @@ class Solution
         }
         return result;
     }
+
+    public static void Main()
+    {
+        
+    }
 }
