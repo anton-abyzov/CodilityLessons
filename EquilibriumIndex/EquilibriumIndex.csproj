@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1C20202-B677-475D-BF78-7543B441CD7B}</ProjectGuid>
+    <ProjectGuid>{A297DE63-A9EA-4FC5-BBEA-B10D28335DEE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Testing2Task3</RootNamespace>
-    <AssemblyName>Testing2Task3</AssemblyName>
+    <RootNamespace>EquilibriumIndex</RootNamespace>
+    <AssemblyName>EquilibriumIndex</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
