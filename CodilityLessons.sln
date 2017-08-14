@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing2Task3", "Testing2Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquilibriumIndex", "EquilibriumIndex\EquilibriumIndex.csproj", "{A297DE63-A9EA-4FC5-BBEA-B10D28335DEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing3Task1", "Testing3Task1\Testing3Task1.csproj", "{91787455-FEB1-4D54-A619-10A96622D709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing3Task2", "Testing3Task2\Testing3Task2.csproj", "{A02CA482-A24D-4081-8781-48EBC6C7270F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{A297DE63-A9EA-4FC5-BBEA-B10D28335DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A297DE63-A9EA-4FC5-BBEA-B10D28335DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A297DE63-A9EA-4FC5-BBEA-B10D28335DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91787455-FEB1-4D54-A619-10A96622D709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91787455-FEB1-4D54-A619-10A96622D709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91787455-FEB1-4D54-A619-10A96622D709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91787455-FEB1-4D54-A619-10A96622D709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02CA482-A24D-4081-8781-48EBC6C7270F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02CA482-A24D-4081-8781-48EBC6C7270F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02CA482-A24D-4081-8781-48EBC6C7270F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02CA482-A24D-4081-8781-48EBC6C7270F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
