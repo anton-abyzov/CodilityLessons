@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing3Task1", "Testing3Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing3Task2", "Testing3Task2\Testing3Task2.csproj", "{A02CA482-A24D-4081-8781-48EBC6C7270F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21July2019Test", "21July2019Test\21July2019Test.csproj", "{7CBA7E0B-111C-4FD5-B351-B893922B3361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackets", "Brackets\Brackets.csproj", "{76F90F6A-7601-484F-BC79-09EAC852471E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{A02CA482-A24D-4081-8781-48EBC6C7270F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A02CA482-A24D-4081-8781-48EBC6C7270F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A02CA482-A24D-4081-8781-48EBC6C7270F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBA7E0B-111C-4FD5-B351-B893922B3361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBA7E0B-111C-4FD5-B351-B893922B3361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBA7E0B-111C-4FD5-B351-B893922B3361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBA7E0B-111C-4FD5-B351-B893922B3361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F90F6A-7601-484F-BC79-09EAC852471E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F90F6A-7601-484F-BC79-09EAC852471E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F90F6A-7601-484F-BC79-09EAC852471E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F90F6A-7601-484F-BC79-09EAC852471E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

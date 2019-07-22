@@ -29,7 +29,8 @@ class Solution
 
     public static void Main()
     {
-        var arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
+        string[] array = System.Console.ReadLine().Split(' ');
+        var arr = Array.ConvertAll(array, int.Parse);
         var result = new Solution().solution(arr);
         Console.WriteLine(result);
     }

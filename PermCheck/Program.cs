@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 // you can also use other imports, for example:
 // using System.Collections.Generic;
@@ -25,7 +26,18 @@ class Solution
     public static void Main()
     {
         var arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-        var result = new Solution().solution(arr);
+        var result = new Solution().solutionXor(arr);
         Console.WriteLine(result);
+    }
+
+    public int solutionXor(int[] A)
+    {
+        var check = Enumerable.Range(1, A.Length).ToArray();
+        int result = 0;
+        for (int i = 0; i < A.Length; i++)
+        {
+            result ^= check[i] ^ A[i];
+        }
+        return result == 0 ? 1 : 0;
     }
 }

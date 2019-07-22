@@ -21,6 +21,8 @@ class Solution
 
     public static void Main()
     {
-        
+        var array = Array.ConvertAll(System.Console.ReadLine().Split(' '), int.Parse);
+        var result = new Solution().solution(array);
+        Console.WriteLine(result);
     }
 }

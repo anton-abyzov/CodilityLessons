@@ -25,7 +25,5 @@ public partial class Solution
         Assert.Equal(3, result);
     }
 
-    static void Main(string[] args)
-    {
-    }
+    
 }

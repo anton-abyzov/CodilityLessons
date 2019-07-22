@@ -7,8 +7,9 @@ class Solution
 {
     static void Main(string[] args)
     {
+        Console.WriteLine(0 ^ 5);
         var arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-        var result = new Solution().solution(arr);
+        var result = new Solution().solutionXor(arr);
         Console.WriteLine(result);
     }
 
@@ -29,5 +30,15 @@ class Solution
         }
         optimal.ExceptWith(visited);
         return optimal.First();
+    }
+
+    public int solutionXor(int[] A)
+    {
+        var result = 0;
+        for (var i = 0; i < A.Length; i++)
+        {
+            result ^= A[i] ^ (i + 1);
+        }
+        return result^(A.Length + 1);
     }
 }
